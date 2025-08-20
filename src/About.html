@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About | KeyPowerEngineering</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js"></script>
+        <style>
+            body {
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            padding: 0;
+            overflow-x: hidden;
+            background-color: gray;
+            /* Prevent horizontal scrolling */
+        }
+        .whatsapp-icon {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+  
+            border-radius: 50%;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            z-index: 1000;
+        }
+
+        .whatsapp-icon svg {
+            width: 30px;
+            height: 30px;
+            fill: #fff;
+        }
+        
+
+        </style>
+    </head>
+    <body>
+      <nav id="navbar" class="fixed top-0 left-0 w-full flex justify-between items-center bg-[#003a5b] p-4 shadow-lg z-50">
+        <!-- Logo Section -->
+        <div class="flex items-center">
+          <a href="index.html">
+            <img 
+              src="images/logo.png" 
+              alt="Keypower Logo" 
+              class="h-12 sm:h-16 md:h-20 w-auto" 
+            />
+          </a>
+        </div>
+      
+        <!-- Desktop Menu -->
+        <ul id="navbar-links" class="hidden md:flex space-x-8 text-lg font-semibold text-white">
+          <li><a href="index.html" class="hover:text-yellow-400 transition">Home</a></li>
+          <li><a href="Project.html" class="hover:text-yellow-400 transition">Projects</a></li>
+          <li><a href="Services.html" class="hover:text-yellow-400 transition">Services</a></li>
+          <li><a href="about.html" class="hover:text-yellow-400 transition">About</a></li>
+          <li>
+            <a 
+              href="contact us.html" 
+              class="px-4 py-2 rounded-lg font-bold bg-yellow-500 text-[#003a5b] transition hover:bg-white hover:text-[#003a5b]"
+            >
+              Contact
+            </a>
+          </li>
+        </ul>
+      
+        <!-- Mobile Menu Button -->
+        <button id="menu-toggle" class="md:hidden flex items-center p-2 text-white bg-yellow-500 rounded-full hover:bg-yellow-600 transition">
+          <svg id="menu-icon" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+          </svg>
+          <svg id="close-icon" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+          </svg>
+        </button>
+      
+        <!-- Mobile Menu -->
+        <ul id="mobile-menu" class="absolute top-full left-0 w-full bg-[#003a5b] text-white hidden flex-col items-center space-y-4 p-6 shadow-lg transition-all duration-300 ease-in-out">
+          <li><a href="index.html" class="hover:text-yellow-400 transition">Home</a></li>
+          <li><a href="Project.html" class="hover:text-yellow-400 transition">Projects</a></li>
+          <li><a href="Services.html" class="hover:text-yellow-400 transition">Services</a></li>
+          <li><a href="about.html" class="hover:text-yellow-400 transition">About</a></li>
+          <li>
+            <a 
+              href="contact us.html" 
+              class="px-4 py-2 rounded-lg font-bold bg-yellow-500 text-[#003a5b] transition hover:bg-white hover:text-[#003a5b]"
+            >
+              Contact
+            </a>
+          </li>
+        </ul>
+      </nav>
+      
+  <section 
+  class="hero bg-cover bg-center h-80 relative" 
+  style="background-image: url('images/4a82b9db-8c0c-498b-a3d5-65986185ae32.jpeg');">
+  <!-- Overlay -->
+  <div 
+    class="absolute inset-0" 
+    style="background-color: rgba(0, 20, 41, 0.5);"></div> 
+
+  <!-- Content -->
+  <div class="container mx-auto flex items-center h-full relative z-10">
+    <div class="text-white text-center px-6">
+      <h1 class="text-4xl font-bold mb-4 text-white">About Us</h1>
+    </div>
+  </div>
+</section>
+<section class="py-16 bg-gray-100">
+    <div class="container mx-auto flex flex-col md:flex-row items-center md:items-start space-y-8 md:space-y-0 md:space-x-8">
+      <!-- Left Side: Logo -->
+      <div class="w-full md:w-1/2 flex justify-center">
+        <img 
+          src="images/logo.png" 
+          alt="Key Power Engineering Ltd Logo" 
+          class="h-40 w-auto md:h-60"
+        />
+      </div>
+  
+      <!-- Right Side: History -->
+      <div class="w-full md:w-1/2">
+        <h2 class="text-3xl font-bold text-gray-800 mb-4">Our History</h2>
+        <p class="text-lg text-gray-700 leading-relaxed">
+            Founded in 2017, Key Power Engineering Ltd is a building services 
+            engineering company that offers a wide array of expertise solutions that range
+             from conception to commissioning in MEP services. The extent and quality of services 
+             provided by the company have helped accumulate high excellence in engineering services 
+             in Rwanda We believe in engineering solutions tailored to the 
+            specific needs of our clients' technical skills and professional reputations.        </p>
+        <p class="text-lg text-gray-700 leading-relaxed mt-4">
+            Consequently, Key Power Engineering Ltd has grown to become a leading member in the field to
+             better deliver our services and give a personalized experience to each person that crosses
+              our threshold. At Key Power Engineering Ltd, we pride ourselves on combining facility engineering,
+               energy management, and project management services, that enable us to deliver sustainable solutions 
+               for our clients and in turn reduce the carbon footprint of our output throug
+            h our technical know-how and extensive expertise. Our world-class palette of services        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="relative bg-cover bg-center h-80 md:h-[400px] lg:h-[500px]" 
+        style="background-image: url('images/646f24a9-0418-4303-80e8-6ecfbc5072ee.jpeg');">
+
+    <div class="absolute inset-0 bg-[#002b5b] opacity-70"></div>
+
+    <div class="relative container mx-auto flex flex-col md:flex-row items-center justify-between h-full px-6 md:px-12 lg:px-16">
+        
+        <div class="text-center md:text-left md:w-1/2 text-white space-y-4">
+            <h2 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-yellow-500 uppercase">
+                Our Mission
+            </h2>
+            <p class="text-sm sm:text-base lg:text-lg leading-relaxed">
+                To provide innovative and sustainable engineering solutions that 
+                empower businesses and communities, ensuring efficiency, reliability,
+                and quality in every project we undertake.
+            </p>
+        </div>
+
+        <div class="text-center md:text-left md:w-1/2 text-white mt-6 md:mt-0 space-y-4">
+            <h2 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-yellow-500 uppercase">
+                Our Vision
+            </h2>
+            <p class="text-sm sm:text-base lg:text-lg leading-relaxed">
+                To be a leading engineering firm recognized for excellence,
+                innovation, and commitment to delivering transformative 
+                solutions that shape a sustainable future.
+            </p>
+        </div>
+    </div>
+</section>
+<br><br><br><br>
+<section class="py-20 bg-gray-100">
+  <div class="container mx-auto flex flex-wrap items-center justify-center space-y-8 md:space-y-0 md:flex-nowrap">
+    <!-- Experience -->
+    <div class="flex flex-col items-center px-4">
+      <div class="w-16 h-16 border-4 border-yellow-500 rounded-full flex items-center justify-center text-yellow-500 font-bold text-2xl mb-2">07</div>
+      <p class="text-center text-[#003a5b] font-medium">Years of Experience</p>
+    </div>
+    <!-- Projects Completed -->
+    <div class="flex flex-col items-center px-4">
+      <div class="w-16 h-16 border-4 border-yellow-500 rounded-full flex items-center justify-center text-yellow-500 font-bold text-2xl mb-2">60+</div>
+      <p class="text-center text-[#003a5b] font-medium">Projects Completed</p>
+    </div>
+    <!-- Happy Clients -->
+    <div class="flex flex-col items-center px-4">
+      <div class="w-16 h-16 border-4 border-yellow-500 rounded-full flex items-center justify-center text-yellow-500 font-bold text-2xl mb-2">18+</div>
+      <p class="text-center text-[#003a5b] font-medium">Happy Clients</p>
+    </div>
+    <!-- Awards & Recognitions -->
+    <div class="flex flex-col items-center px-4">
+      <div class="w-16 h-16 border-4 border-yellow-500 rounded-full flex items-center justify-center text-yellow-500 font-bold text-2xl mb-2">30+</div>
+      <p class="text-center text-[#003a5b] font-medium">Awards & Recognitions</p>
+    </div>
+  </div>
+  
+
+  
+   <!-- Our Team Section -->
+   <section class="py-12 bg-gray-100">
+    <div class="container mx-auto">
+      <!-- Section Title -->
+      <div class="text-center mb-12">
+        <h2 class="text-4xl font-bold uppercase text-[#002b5b]">Our Team</h2>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"> 
+        <div class="team-member bg-white rounded-lg shadow-md p-6">
+            <div class="relative group"> 
+                <img src="images/managing director.jpeg" alt="Eng. Costant KIRENGA" class="w-full h-76 object-cover rounded-lg">
+                <div class="absolute inset-0 bg-[#002b5b] opacity-0 group-hover:opacity-60 flex items-center justify-center transition-opacity">
+                    <button onclick="showModal('modal1')" class="text-yellow-500 text-xl font-semibold uppercase">View More</button>
+                </div>
+            </div>
+            <h3 class="text-xl font-bold text-center mt-4">Eng. Costant KIRENGA</h3>
+            <p class="text-gray-600 text-center">Director Manager</p>
+        </div>
+    
+        <div class="team-member bg-white rounded-lg shadow-md p-6">
+            <div class="relative group">
+                <img src="images/operation manager.jpeg" alt="Eng. Alex MUTABAZI" class="w-full h-76  object-cover rounded-lg">
+                <div class="absolute inset-0 bg-[#002b5b] opacity-0 group-hover:opacity-60 flex items-center justify-center transition-opacity">
+                    <button onclick="showModal('modal2')" class="text-yellow-500 text-xl font-semibold uppercase">View More</button>
+                </div>
+            </div>
+            <h3 class="text-xl font-bold text-center mt-4">Eng. Alex MUTABAZI</h3>
+            <p class="text-gray-600 text-center">Operation Manager</p>
+        </div>
+    
+        <div class="team-member bg-white rounded-lg shadow-md p-6">
+            <div class="relative group">
+                <img src="images/techinical manager.jpg" alt="Eng. Valens BIKORIMANA" class="w-full h-76  object-cover rounded-lg">
+                <div class="absolute inset-0 bg-[#002b5b] opacity-0 group-hover:opacity-60 flex items-center justify-center transition-opacity">
+                    <button onclick="showModal('modal3')" class="text-yellow-500 text-xl font-semibold uppercase">View More</button>
+                </div>
+            </div>
+            <h3 class="text-xl font-bold text-center mt-4">Eng. Valens BIKORIMANA</h3>
+            <p class="text-gray-600 text-center">Technical Manager</p>
+        </div>
+    
+        <div class="team-member bg-white rounded-lg shadow-md p-6">
+            <div class="relative group">
+                <img src="images/MEP DESIGN.jpg" alt="Eng. Joseph NDATIMANA" class="w-full h-76  object-cover rounded-lg">
+                <div class="absolute inset-0 bg-[#002b5b] opacity-0 group-hover:opacity-60 flex items-center justify-center transition-opacity">
+                    <button onclick="showModal('modal4')" class="text-yellow-500 text-xl font-semibold uppercase">View More</button>
+                </div>
+            </div>
+            <h3 class="text-xl font-bold text-center mt-4">Eng. Joseph NDATIMANA</h3>
+            <p class="text-gray-600 text-center">MEP Design Engineer</p>
+        </div>
+    
+        <div class="team-member bg-white rounded-lg shadow-md p-6">
+            <div class="relative group">
+                <img src="images/project engineer.png" alt="Eng. Theogen NSHIMYUMUREMYI" class="w-full h-76  object-cover rounded-lg"> 
+                <div class="absolute inset-0 bg-[#002b5b] opacity-0 group-hover:opacity-60 flex items-center justify-center transition-opacity">
+                    <button onclick="showModal('modal5')" class="text-yellow-500 text-xl font-semibold uppercase">View More</button>
+                </div>
+            </div>
+            <h3 class="text-xl font-bold text-center mt-4">Eng. Theogen NSHIMYUMUREMYI</h3>
+            <p class="text-gray-600 text-center">Lead Project Engineer</p>
+        </div>
+    
+        <div class="team-member bg-white rounded-lg shadow-md p-6">
+            <div class="relative group">
+                <img src="images/ABAYIZERA.jpg" alt="Henriette ABAYIZERA" class="w-full h-76  object-cover rounded-lg"> 
+                <div class="absolute inset-0 bg-[#002b5b] opacity-0 group-hover:opacity-60 flex items-center justify-center transition-opacity">
+                    <button onclick="showModal('modal6')" class="text-yellow-500 text-xl font-semibold uppercase">View More</button>
+                </div>
+            </div>
+            <h3 class="text-xl font-bold text-center mt-4">Henriette ABAYIZERA </h3>
+            <p class="text-gray-600 text-center">Account Coordinator</p>
+        </div>
+    
+        <div class="team-member bg-white rounded-lg shadow-md p-6">
+            <div class="relative group">
+                <img src="images/SECRETARY.jpg" alt="Adeline UMUHOZA" class="w-full h-76  object-cover rounded-lg"> 
+                <div class="absolute inset-0 bg-[#002b5b] opacity-0 group-hover:opacity-60 flex items-center justify-center transition-opacity">
+                    <button onclick="showModal('modal7')" class="text-yellow-500 text-xl font-semibold uppercase">View More</button>
+                </div>
+            </div>
+            <h3 class="text-xl font-bold text-center mt-4">Adeline UMUHOZA</h3>
+            <p class="text-gray-600 text-center">Secretary</p>
+        </div>
+    </div>
+
+  <!-- Modals description  -->
+  <!-- Modal for Team Member 1 -->
+  <div id="modal1" class="modal hidden fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
+    <div class="bg-white p-6 rounded-lg shadow-lg w-11/12 md:w-2/3 lg:w-1/3 relative">
+      <button class="absolute top-2 right-2 text-gray-400 hover:text-gray-600 text-2xl" onclick="closeModal('modal1')">&times;</button>
+      <img src="images/managing director.jpeg" alt="" class="w-full h-60 object-cover rounded-lg mb-4">
+      <h3 class="text-xl font-bold text-center mb-2">Eng. Costant KIRENGA </h3>
+      <p class="text-center text-gray-600 mb-4">Director Manager</p>
+      <p class="text-justify text-gray-700">
+        Kirenga Costant is a highly experienced and respected leader in the engineering industry. 
+        He brings a wealth of knowledge and expertise to KeyPower Engineering Ltd., 
+        guiding the company towards innovative and sustainable solutions. 
+        With his strong leadership and strategic vision, he drives the team to achieve exceptional results 
+        and deliver outstanding projects.
+    </div>
+  </div>
+
+  <!-- Modal for Team Member 2 -->
+  <div id="modal2" class="modal hidden fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
+    <div class="bg-white p-6 rounded-lg shadow-lg w-11/12 md:w-2/3 lg:w-1/3 relative">
+      <button class="absolute top-2 right-2 text-gray-400 hover:text-gray-600 text-2xl" onclick="closeModal('modal2')">&times;</button>
+      <img src="images/operation manager.jpeg" alt="" class="w-full h-60 object-cover rounded-lg mb-4">
+      <h3 class="text-xl font-bold text-center mb-2">Eng. Alex MUTABAZI </h3>
+      <p class="text-center text-gray-600 mb-4">Operation manager</p>
+      <p class="text-justify text-gray-700">
+        Alex Mutabazi - Operations Manager, Key power Engineering Ltd
+Alex Mutabazi is a skilled Operations Manager dedicated to optimizing processes,
+ enhancing productivity, and delivering top-tier results at Keypower Engineering Ltd.
+  With expertise in strategy, resource management, and team leadership, he ensures
+   seamless operations and drives sustainable
+, impactful engineering solutions aligned with client and organizational goals.
+      </p>
+    </div>
+  </div>
+  <!-- Modal for Team Member 3 -->
+  <div id="modal3" class="modal hidden fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
+    <div class="bg-white p-6 rounded-lg shadow-lg w-11/12 md:w-2/3 lg:w-1/3 relative">
+        <button class="absolute top-2 right-2 text-gray-400 hover:text-gray-600 text-2xl" onclick="closeModal('modal3')">&times;</button>
+        <img src="images/techinical manager.jpg" alt="" class="w-full h-60 object-cover rounded-lg mb-4">
+        <h3 class="text-xl font-bold text-center mb-2">Eng. Valens BIKORIMANA</h3>
+        <p class="text-center text-gray-600 mb-4">Technical Manager</p>
+        <p class="text-justify text-gray-700">
+            Valens Bikorimana - Technical Manager, Key Power Engineering Ltd. 
+            Valens Bikorimana is a dedicated Technical Manager known for his expertise in 
+            overseeing technical operations and ensuring the delivery of high-quality engineering
+            solutions. He excels in managing projects, leading technical teams,
+            and implementing innovative strategies to meet client needs and drive organizational success.
+        </p>
+    </div>
+</div>
+ <!-- Modal for Team Member 4 -->
+ <div id="modal4" class="modal hidden fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
+  <div class="bg-white p-6 rounded-lg shadow-lg w-11/12 md:w-2/3 lg:w-1/3 relative">
+      <button class="absolute top-2 right-2 text-gray-400 hover:text-gray-600 text-2xl" onclick="closeModal('modal4')">&times;</button>
+      <img src="images/MEP DESIGN.jpg" alt="" class="w-full h-60 object-cover rounded-lg mb-4">
+      <h3 class="text-xl font-bold text-center mb-2">Eng. Joseph NDATIMANA</h3>
+      <p class="text-center text-gray-600 mb-4">MEP Deesign Engineer</p>
+      <p class="text-justify text-gray-700">
+        Joseph Ndatimana - MEP Design Engineer, Key power Engineering Ltd
+        Joseph Ndatimana is a skilled MEP (Mechanical, Electrical, and Plumbing) Design Engineer 
+        specializing in creating efficient and sustainable building systems. With expertise in designing, planning, and implementing complex MEP solutions, he ensures seamless integration of systems that meet client needs and industry standards. Joseph is committed to innovation,
+         precision, and delivering high-quality engineering solutions that drive project success.
+      </p>
+  </div>
+</div>
+<!-- Modal for Team Member 5 -->
+<div id="modal5" class="modal hidden fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
+  <div class="bg-white p-6 rounded-lg shadow-lg w-11/12 md:w-2/3 lg:w-1/3 relative">
+      <button class="absolute top-2 right-2 text-gray-400 hover:text-gray-600 text-2xl" onclick="closeModal('modal5')">&times;</button>
+      <img src="images/project engineer.png" alt="" class="w-full h-60 object-cover rounded-lg mb-4">
+      <h3 class="text-xl font-bold text-center mb-2">Eng. Theogene NSHIMYUMUREMYI</h3>
+      <p class="text-center text-gray-600 mb-4"> Lead Project Engineer</p>
+      <p class="text-justify text-gray-700">
+        Theogene Nshimyumuremyi - Project Engineer, Key power Engineering Ltd
+        Theogene Nshimyumuremyi is a dedicated Project Engineer with expertise in managing and 
+        executing engineering projects from concept to completion. He excels in coordinating teams, ensuring timely project delivery, and maintaining high-quality standards. With a strong focus on efficiency and client satisfaction, Theogene plays a
+         key role in delivering successful and impactful engineering solutions at Key power Engineering Ltd.
+      </p>
+  </div>
+</div>
+
+<!-- Modal for Team Member 6 -->
+<div id="modal6" class="modal hidden fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
+  <div class="bg-white p-6 rounded-lg shadow-lg w-11/12 md:w-2/3 lg:w-1/3 relative">
+      <button class="absolute top-2 right-2 text-gray-400 hover:text-gray-600 text-2xl" onclick="closeModal('modal6')">&times;</button>
+      <img src="images/ABAYIZERA.jpg" alt="" class="w-full h-60 object-cover rounded-lg mb-4">
+      <h3 class="text-xl font-bold text-center mb-2">Henriette ABAYIZERA </h3>
+      <p class="text-center text-gray-600 mb-4"> Account Coordinator </p>
+      <p class="text-justify text-gray-700">
+        Henriette Abayizera - Account Coordinator, Key power Engineering Ltd
+Henriette Abayizera is a detail-oriented Account Coordinator dedicated to maintaining 
+seamless client relationships and ensuring efficient account management. Skilled in communication, organization, and problem-solving, she plays a vital role in coordinating between clients and internal teams to ensure satisfaction and successful project execution. Henriette is committed to
+ delivering exceptional service and contributing to the success of Key power Engineering Ltd.
+      </p>
+  </div>
+</div>
+<!-- Modal for Team Member 7 -->
+<div id="modal7" class="modal hidden fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
+  <div class="bg-white p-6 rounded-lg shadow-lg w-11/12 md:w-2/3 lg:w-1/3 relative">
+      <button class="absolute top-2 right-2 text-gray-400 hover:text-gray-600 text-2xl" onclick="closeModal('modal7')">&times;</button>
+      <img src="images/SECRETARY.jpg"  class="w-full h-60 object-cover rounded-lg mb-4">
+      <h3 class="text-xl font-bold text-center mb-2">Adeline UMUHOZA  </h3>
+      <p class="text-center text-gray-600 mb-4"> Secretary </p>
+      <p class="text-justify text-gray-700">
+        Adeline Umuhoza - Secretary, Keypower Engineering Ltd
+        Adeline Umuhoza is a highly organized and professional Secretary who ensures smooth administrative
+         operations at Keypower Engineering Ltd. With excellent communication and multitasking skills, she manages schedules, handles correspondence, and supports the team with day-to-day operations.
+         Adeline's dedication and efficiency contribute significantly to the company's success and productivity
+      </p>
+  </div>
+</div>
+<!--whtasapp-->
+
+
+
+<div class="icon-container">
+  <a href="https://wa.me/+250788657197" target="_blank" class="whatsapp-icon">
+      <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 48 48">
+          <linearGradient id="k87TA_gnBJ8uBlK4qfs8ia_AltfLkFSP7XN_gr1" x1="6.718" x2="35.097" y1="12.801" y2="41.18" gradientUnits="userSpaceOnUse">
+              <stop offset="0" stop-color="#dfe9f2"></stop>
+              <stop offset=".391" stop-color="#d6e0e9"></stop>
+              <stop offset="1" stop-color="#bfc8d1"></stop>
+          </linearGradient>
+          <path fill="url(#k87TA_gnBJ8uBlK4qfs8ia_AltfLkFSP7XN_gr1)" d="M37.848,9.86C34.073,6.083,29.052,4.002,23.709,4C12.693,4,3.727,12.962,3.722,23.979c-0.001,3.367,0.849,6.685,2.461,9.622L3.598,43.04c-0.094,0.345,0.002,0.713,0.254,0.967c0.19,0.192,0.447,0.297,0.711,0.297c0.085,0,0.17-0.011,0.254-0.033l9.687-2.54c2.828,1.468,5.998,2.243,9.197,2.244c11.024,0,19.99-8.963,19.995-19.98C43.698,18.656,41.621,13.636,37.848,9.86z"></path>
+          <linearGradient id="k87TA_gnBJ8uBlK4qfs8ib_AltfLkFSP7XN_gr2" x1="15.389" x2="28.863" y1="10.726" y2="39.265" gradientUnits="userSpaceOnUse">
+              <stop offset="0" stop-color="#2ecc75"></stop>
+              <stop offset="1" stop-color="#0b964a"></stop>
+          </linearGradient>
+          <path fill="url(#k87TA_gnBJ8uBlK4qfs8ib_AltfLkFSP7XN_gr2)" d="M34.871,12.832c-2.98-2.982-6.941-4.625-11.157-4.626c-8.704,0-15.783,7.076-15.787,15.774c-0.001,2.981,0.833,5.883,2.413,8.396l0.376,0.597l-1.595,5.821l5.973-1.566l0.577,0.342c2.422,1.438,5.2,2.198,8.032,2.199h0.006c8.698,0,15.777-7.077,15.78-15.776C39.49,19.778,37.851,15.814,34.871,12.832z"></path>
+          <path d="M28.893,33.879c-0.995,0-2.354-0.254-5.087-1.331c-3.06-1.208-6.066-3.83-8.464-7.384l-0.077-0.113c-0.642-0.857-2.132-3.107-2.132-5.5c0-2.58,1.288-3.953,1.838-4.54l0.085-0.091C15.815,14.089,16.709,14,17.058,14c0.369,0.004,0.682,0,0.953,0.012c0.654,0.026,1.399,0.215,1.936,1.409l0,0c0.25,0.558,0.676,1.605,1.009,2.426c0.213,0.527,0.386,0.955,0.439,1.069c0.294,0.586,0.308,1.167,0.036,1.714l-0.065,0.133c-0.128,0.262-0.261,0.533-0.544,0.863l-0.235,0.282c-0.162,0.197-0.325,0.393-0.47,0.545c0.389,0.641,1.206,1.856,2.331,2.86c1.394,1.241,2.588,1.76,3.229,2.039c0.127,0.055,0.233,0.102,0.317,0.142c0.405-0.47,1.072-1.271,1.302-1.614c0.77-1.156,1.877-0.755,2.24-0.622c0.569,0.206,3.323,1.576,3.35,1.589l0.255,0.125c0.419,0.203,0.813,0.394,1.062,0.808c0.395,0.661,0.176,2.073-0.193,3.105c-0.534,1.503-2.828,2.805-4.054,2.915l-0.226,0.024C29.465,33.855,29.196,33.879,28.893,33.879z M17.216,16c-0.14,0-0.385-0.058-0.686,0.27l-0.101,0.109c-0.453,0.483-1.297,1.383-1.297,3.172c0,1.843,1.326,3.757,1.732,4.3c0.027,0.036,0.071,0.101,0.135,0.194c2.175,3.223,4.853,5.582,7.541,6.642c3.384,1.335,4.253,1.234,4.956,1.151l0.278-0.03c0.609-0.055,2.122-0.951,2.351-1.594c0.209-0.585,0.276-1.087,0.287-1.374c-0.044-0.021-0.092-0.043-0.143-0.067l-0.283-0.139c-0.637-0.32-2.779-1.366-3.131-1.495c-0.442,0.608-1.262,1.565-1.479,1.814c-0.407,0.467-1.127,0.909-2.229,0.354c-0.066-0.033-0.156-0.071-0.268-0.12c-0.691-0.301-2.13-0.926-3.763-2.38c-1.469-1.311-2.474-2.904-2.838-3.529c-0.445-0.761-0.322-1.495,0.366-2.18c0.12-0.12,0.257-0.291,0.397-0.46l0.262-0.314c0.118-0.137,0.161-0.226,0.267-0.441l0.035-0.071c-0.092-0.204-0.278-0.659-0.502-1.213c-0.323-0.797-0.736-1.815-0.979-2.357v0c-0.065-0.144-0.114-0.215-0.138-0.245c0.005,0.015-0.029,0.016-0.058,0.014C17.706,16,17.463,16,17.216,16z M32.407,28.615L32.407,28.615L32.407,28.615z M19.642,19.736L19.642,19.736L19.642,19.736z" opacity=".05"></path>
+          <path d="M28.889,33.384c-0.846,0-2.155-0.22-4.899-1.302c-2.967-1.17-5.891-3.727-8.233-7.198l-0.087-0.128c-0.616-0.822-2.037-2.962-2.037-5.206c0-2.382,1.193-3.654,1.703-4.198l0.089-0.096c0.625-0.683,1.351-0.756,1.634-0.756c0.377,0.003,0.667,0,0.931,0.012c0.492,0.02,1.057,0.124,1.502,1.114l0,0c0.249,0.554,0.671,1.594,1.001,2.409c0.225,0.555,0.405,1.002,0.452,1.097c0.082,0.165,0.338,0.674,0.039,1.275l-0.067,0.136c-0.125,0.255-0.233,0.476-0.475,0.758L20.2,21.59c-0.173,0.21-0.346,0.419-0.496,0.569c-0.216,0.215-0.216,0.215-0.13,0.362c0.328,0.563,1.232,1.998,2.541,3.165c1.453,1.295,2.696,1.834,3.363,2.124c0.144,0.062,0.259,0.113,0.344,0.156c0.293,0.146,0.323,0.116,0.427-0.002c0.288-0.328,1.168-1.364,1.463-1.807c0.554-0.83,1.269-0.57,1.654-0.431c0.506,0.184,3.039,1.437,3.296,1.566l0.262,0.128c0.38,0.184,0.68,0.329,0.852,0.614c0.254,0.426,0.149,1.603-0.235,2.681c-0.488,1.371-2.646,2.497-3.628,2.585l-0.239,0.026C29.441,33.354,29.196,33.384,28.889,33.384z M17.201,15.5c-0.026,0-0.052,0-0.078,0c-0.183,0-0.595,0.031-0.962,0.432l-0.097,0.104c-0.465,0.496-1.432,1.528-1.432,3.514c0,1.943,1.281,3.864,1.832,4.6c0.025,0.033,0.064,0.09,0.121,0.174c2.231,3.306,4.991,5.73,7.772,6.828c3.505,1.382,4.445,1.271,5.197,1.183l0.267-0.029c0.693-0.062,2.451-1.013,2.776-1.925c0.333-0.932,0.347-1.71,0.296-1.877c0.007,0.006-0.232-0.098-0.405-0.182l-0.276-0.136c-0.623-0.313-2.806-1.381-3.188-1.52c-0.36-0.13-0.361-0.133-0.48,0.046c-0.349,0.521-1.32,1.657-1.542,1.91c-0.642,0.735-1.384,0.359-1.629,0.236c-0.072-0.036-0.171-0.078-0.293-0.131c-0.668-0.291-2.057-0.895-3.63-2.296c-1.416-1.262-2.387-2.803-2.739-3.407c-0.476-0.814,0.059-1.347,0.287-1.574c0.13-0.13,0.28-0.313,0.431-0.497l0.255-0.306c0.159-0.186,0.226-0.322,0.336-0.547l0.07-0.143c0.049-0.098,0.058-0.189-0.04-0.383c-0.052-0.104-0.245-0.578-0.483-1.167c-0.326-0.803-0.741-1.829-0.987-2.374l0,0c-0.229-0.509-0.363-0.515-0.632-0.525C17.717,15.5,17.461,15.5,17.201,15.5z" opacity=".07"></path>
+          <path fill="#fff" fill-rule="evenodd" d="M19.035,15.831c-0.355-0.79-0.729-0.806-1.068-0.82C17.69,14.999,17.374,15,17.058,15s-0.83,0.119-1.265,0.594c-0.435,0.475-1.661,1.622-1.661,3.956s1.7,4.59,1.937,4.906c0.237,0.316,3.282,5.259,8.104,7.161c4.007,1.58,4.823,1.266,5.693,1.187c0.87-0.079,2.807-1.147,3.202-2.255c0.395-1.108,0.395-2.057,0.277-2.255c-0.119-0.198-0.435-0.316-0.909-0.554s-2.807-1.385-3.242-1.543c-0.435-0.158-0.751-0.237-1.068,0.238c-0.316,0.474-1.225,1.543-1.502,1.859c-0.277,0.317-0.554,0.357-1.028,0.119c-0.474-0.238-2.002-0.738-3.815-2.354c-1.41-1.257-2.362-2.81-2.639-3.285c-0.277-0.474-0.03-0.731,0.208-0.968c0.213-0.213,0.474-0.554,0.712-0.831c0.237-0.277,0.316-0.475,0.474-0.791c0.158-0.317,0.079-0.594-0.04-0.831C20.379,19.115,19.457,16.769,19.035,15.831z" clip-rule="evenodd"></path>
+      </svg>
+    </div>
+
+    <footer class="font-poppins w-full bg-[#003a5b] text-white">
+      <!-- Main Footer Section -->
+      <div class="container mx-auto py-10 flex flex-col items-center justify-center space-y-8">
+        <!-- Contact Info Section -->
+        <div class="flex flex-col md:flex-row items-center justify-center gap-16 text-center">
+          <!-- Email -->
+          <div class="flex flex-col items-center space-y-2">
+            <svg class="w-12 h-12 text-yellow-500" fill="currentColor" viewBox="0 0 800 400">
+              <path d="M467,76H45C20.187,76,0,96.187,0,121v270c0,24.813,20.187,45,45,45h422c24.813,0,45-20.187,45-45V121C512,96.187,491.813,76,467,76z M467,391H45V181.5l186,105.3c15.6,8.8,34.4,8.8,50,0L467,181.5V391z M256,256L45,121h422L256,256z" />
+            </svg>
+            <a href="mailto:keypower.e@gmail.com" class="hover:underline text-lg font-medium text-yellow-500">
+              keypower.e@gmail.com
+            </a>
+          </div>
+    
+          <!-- Phone -->
+          <div class="flex flex-col items-center space-y-2">
+            <svg class="w-12 h-12 text-yellow-500" fill="currentColor" viewBox="0 0 800 400">
+              <path d="M497.39,361.39l-91.43-91.43c-11.69-11.69-30.68-11.69-42.36,0l-29.28,29.28c-2.81,2.81-7.05,2.81-9.86,0L182.29,212.29c-2.81-2.81-2.81-7.05,0-9.86l29.28-29.28c11.69-11.69,11.69-30.68,0-42.36l-91.43-91.43c-11.69-11.69-30.68-11.69-42.36,0L14.61,65.61c-25.08,25.08-25.08,65.7,0,90.77L329.21,471.39c25.08,25.08,65.7,25.08,90.77,0l62.6-62.6C509.08,392.07,509.08,373.08,497.39,361.39z" />
+            </svg>
+            <a href="tel:+250788303997" class="hover:underline text-lg font-medium text-yellow-500">
+              +25 0788657197
+            </a>
+          </div>
+    
+          <!-- Location -->
+          <div class="flex flex-col items-center space-y-2">
+            <svg class="w-12 h-12 text-yellow-500" fill="currentColor" viewBox="0 0 800 400">
+              <path d="M256,0C167.6,0,96,71.6,96,160c0,28.8,8,56,22.4,79.2l122.4,209.6c4.8,8,15.2,10.4,22.4,5.6c2.4-1.6,4-4,5.6-6.4l122.4-209.6c14.4-23.2,22.4-50.4,22.4-79.2C416,71.6,344.4,0,256,0z M256,240c-44.8,0-80-35.2-80-80s35.2-80,80-80s80,35.2,80,80S300.8,240,256,240z" />
+            </svg>
+            <span class="text-lg font-medium text-yellow-500">Kigali, Rwanda</span>
+          </div>
+        </div>
+      </div>
+    
+      <!-- Divider -->
+      <hr class="mx-auto w-3/4 my-6 border-t-[2px] border-yellow-500">
+    
+      <!-- Copyright Section -->
+      <div class="bg-[#022b47] py-6">
+        <p class="text-sm text-center text-white">
+          &copy; 2025 Keypower Engineering Ltd. All Rights Reserved.
+        </p>
+      </div>
+    </footer>
+    
+  <script>
+    // JavaScript functions to show and close the modals
+    function showModal(modalId) {
+      document.getElementById(modalId).classList.remove('hidden');
+    }
+
+    function closeModal(modalId) {
+      document.getElementById(modalId).classList.add('hidden');
+    }
+  
+
+  </script>
+         
+    </body>
+</html>
